@@ -43,6 +43,11 @@ p{
     width: 100px;
     background-color: black;
     margin: 2px;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
 }
 
 .button{
