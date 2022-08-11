@@ -12,15 +12,15 @@ for(let box of boxes) {
             box.textContent="X"
             lastvalue="X"
             display.textContent="Player 2's turn to play"
-            // checkGameStatus();
-            // checkDraw();
+             checkGameStatus();
+             checkDraw();
         }
         else{
             box.textContent="O"
             lastvalue="O"
             display.textContent="Player 1's turn to play"
-            // checkGameStatus();
-            // checkDraw();
+             checkGameStatus();
+             checkDraw();
         }
 })
 }
@@ -36,13 +36,13 @@ function checker(first,second,third) {
         boxes[second].textContent =="X" &&
         boxes[third].textContent =="X" 
     ) {
-        disableButtonsWhenGameIsWon("Player1")
+        disableButtonsWhenGameIsWon("Player 1")
     } else if(
         boxes[first].textContent =="O" &&
         boxes[Second].textContent =="O" &&
         boxes[Third].textContent =="O" 
     ) {
-        disableButtonsWhenGameIsWon("Player2") 
+        disableButtonsWhenGameIsWon("Player 2") 
     }
 }
 
